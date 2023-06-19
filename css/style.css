@@ -1010,6 +1010,9 @@ div#gallery {
 .w3ls-about-top-left-grid {
     float: right;
 }
+.about-us{
+	text-align: center;
+}
 .w3ls-about-top-left-grid h4{
 	text-transform: capitalize;
     font-size: 20px;
