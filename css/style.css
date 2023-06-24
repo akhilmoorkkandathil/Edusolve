@@ -843,19 +843,19 @@ div#gallery h6 {
     text-align: center;
     background: #bc0023;
     visibility: hidden;
-	 transition: 0.3s all;
-    -webkit-transition: 0.3s all;
-    -moz-transition: 0.3s all;
-    -o-transition: 0.3s all;
-    -ms-transition: 0.3s all;
+	 transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5 all;
 }
 #flexiselDemo1 li:hover  h6{
 	visibility: visible;
-	 transition: 0.3s all;
-    -webkit-transition: 0.3s all;
-    -moz-transition: 0.3s all;
-    -o-transition: 0.3s all;
-    -ms-transition: 0.3s all;
+	 transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
 }
 div#gallery {
     background: #1ca0de;
@@ -1020,12 +1020,11 @@ div#gallery {
 }
 .about-us{
 	text-align: center;
-    margin: 0.9em auto;
-    font-size: 1.15em;
+	margin: 0.9em auto;
+    font-size: 1.25em;
     line-height: 1.8em;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 500;
-    width: 82%;
+    font-weight: 600;
     
 }
 .w3ls-about-top-left-grid h4{
@@ -2894,7 +2893,7 @@ li.twt {
 		min-height: 38px;
 	}
 	header {
-		padding: 12px 0px;
+		padding: 0px 0px;
 	}
 	.w3-logo label {
 		height: 34px;
