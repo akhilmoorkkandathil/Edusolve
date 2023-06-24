@@ -49,6 +49,7 @@ label{
     float: left;
     line-height: 5px;
 	position:relative;
+	padding: 6px;
 }
 .w3-logo label {
     width: 3px;
@@ -59,8 +60,8 @@ label{
     bottom: -6px;
 }
 .logo_img {
-	width:118px;
-	height: 57px;
+	width:100px;
+	height: 40px;
 }
 .w3-logo h1 {
     margin-top: 2px;
@@ -81,7 +82,7 @@ label{
 }
 header {
     padding: 20px 0px;
-    background: #1ca0de;
+    background: linear-gradient(to right, #36d1dc ,#5b86e5);
     width: 100%;
 	
 }
@@ -858,7 +859,7 @@ div#gallery h6 {
     -ms-transition: 0.5s all;
 }
 div#gallery {
-    background: #1ca0de;
+    background: linear-gradient(to right, #36d1dc ,#5b86e5);
 }
 .flex-slider{	
 	background:#222227;
@@ -1123,7 +1124,7 @@ div#gallery {
 }
 /*-- team --*/
 .team{
-	background:#1ca0de;
+	background:linear-gradient(to right, #36d1dc ,#5b86e5);
 }
 .team h3{
 	color:#3a4d60;
@@ -2516,6 +2517,7 @@ li.twt {
 	}
 	.navbar-default .navbar-toggle {
 		border-color: #fff;
+		margin-top: 15px;
 	}
 	.navbar-default .navbar-toggle .icon-bar {
 		background-color: #bc0023;
