@@ -192,6 +192,7 @@ section {
 	-ms-background-size: cover;
     background-size: cover;
     min-height: 730px;
+	
 }
 .banner-text {
     text-align: left;
@@ -709,6 +710,7 @@ h4.text {
 .signup{
 	margin:0 auto;
 	text-align:center;
+	background:linear-gradient(to right, #36d1dc ,#5b86e5);
 }
 .button2 {
     padding: 7px 27px;
@@ -2517,7 +2519,7 @@ li.twt {
 	}
 	.navbar-default .navbar-toggle {
 		border-color: #fff;
-		margin-top: 15px;
+		margin-top: 10px;
 	}
 	.navbar-default .navbar-toggle .icon-bar {
 		background-color: #bc0023;
