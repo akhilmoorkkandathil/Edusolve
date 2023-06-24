@@ -477,6 +477,7 @@ font-weight:600;
 .head-top-w3ls {
     margin: 0 auto;
     text-align: center;
+	
 }
 .head-top-w3ls i {
     color: #000;
@@ -696,10 +697,13 @@ h4.text {
 /*--// mid --*/
 /*--sign up--*/
 .signup p {
-    color: #777;
-    font-size: 17px;
-    text-align: center;
-    line-height: 33px;
+    
+	margin: 0.9em auto;
+    font-size: 1.26 em;
+    line-height: 1.8em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    width: 76%;
 }
 .signup{
 	margin:0 auto;
@@ -997,7 +1001,7 @@ div#gallery {
 /*--//Portfolio --*/
 /*-- about-inner --*/
 .about-banner-w3ls{
-    background: url(../images/bg55.jpeg)no-repeat 0px 0px;
+    background: url(../images/bg55.jpg)no-repeat 0px 0px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1016,6 +1020,13 @@ div#gallery {
 }
 .about-us{
 	text-align: center;
+    margin: 0.9em auto;
+    font-size: 1.15em;
+    line-height: 1.8em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    width: 82%;
+    
 }
 .w3ls-about-top-left-grid h4{
 	text-transform: capitalize;
@@ -1816,7 +1827,7 @@ li.twt {
 }
 @media(max-width:1440px){
 	header {
-		padding: 16px 0px;
+		padding: 6px 0px;
 	}
 	.banner-text {
 		padding: 14em 0 0 0;
