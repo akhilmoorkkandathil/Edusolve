@@ -192,6 +192,7 @@ section {
 	-ms-background-size: cover;
     background-size: cover;
     min-height: 730px;
+	
 }
 .banner-text {
     text-align: left;
@@ -425,7 +426,7 @@ font-weight:600;
 }
 .slider-info h3 {
     font-size: 2.6em;
-    color: #36d1de;
+    
     background: rgba(0, 0, 0, 0.42);
     padding: 20px;
     letter-spacing: 12px;
@@ -435,7 +436,7 @@ font-weight:600;
 }
 .slider-info h4 {
     font-size: 1em;
-    color: #ffffff;
+    
     letter-spacing: 1px;
     font-weight: normal;
     text-transform: uppercase;
@@ -705,10 +706,13 @@ h4.text {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     width: 76%;
+	color: #888888;
 }
 .signup{
 	margin:0 auto;
 	text-align:center;
+	background:#fff;
+	
 }
 .button2 {
     padding: 7px 27px;
@@ -1021,11 +1025,12 @@ div#gallery {
 }
 .about-us{
 	text-align: center;
-	margin: 0.9em auto;
-    font-size: 1.25em;
+    margin: 0.9em auto;
+    font-size: 1.15em;
     line-height: 1.8em;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
+    color: #888888;
     
 }
 .w3ls-about-top-left-grid h4{
@@ -1149,7 +1154,7 @@ div#gallery {
     transform: rotateY(0deg) scale(1,1);
 }
 .team-img .overlay {
-    padding: 9em 0.5em;
+    padding: 8em 0.5em;
     line-height: 24px;
 }
 .overlay {
@@ -1828,9 +1833,11 @@ li.twt {
 @media(max-width:1440px){
 	header {
 		padding: 6px 0px;
+		position: fixed;
+		z-index: 1000;
 	}
 	.banner-text {
-		padding: 14em 0 0 0;
+		padding: 20em 0 0 0;
 		margin-left: 135px;
 	}
 	.callbacks_tabs {
@@ -1855,7 +1862,7 @@ li.twt {
 		min-height: 585px;
 	}
 	.banner-text {
-		padding: 10em 0 0 0;
+		padding: 15em 0 0 0;
 		margin-left: 170px;
 	}
 	.callbacks_tabs {
@@ -1926,7 +1933,7 @@ li.twt {
 		min-height: 540px;
 	}
 	.banner-text {
-		padding: 9em 0 0 0;
+		padding: 13em 0 0 0;
 		margin-left: 160px;
 	}
 	.callbacks_tabs {
@@ -2250,7 +2257,7 @@ li.twt {
 	}
 	.banner-text {
 		margin-left: 105px;
-		padding: 7em 0 0 0;
+		padding: 10em 0 0 0;
 	}
 	.banner {
 		min-height: 475px;
@@ -2412,7 +2419,7 @@ li.twt {
 	}
 	.banner-text {
 		margin-left: 90px;
-		padding: 6em 0 0 0;
+		padding: 10em 0 0 0;
 	}
 	.mid-agileits-left {
 		width: 100%;
@@ -2517,7 +2524,7 @@ li.twt {
 	}
 	.navbar-default .navbar-toggle {
 		border-color: #fff;
-		margin-top: 15px;
+		margin-top: 10px;
 	}
 	.navbar-default .navbar-toggle .icon-bar {
 		background-color: #bc0023;
@@ -2736,7 +2743,7 @@ li.twt {
 	}
 	.banner-text {
 		margin-left: 47px;
-		padding: 4em 0 0 0;
+		padding: 8em 0 0 0;
 	}
 	.callbacks_tabs {
 		top: 131%;
@@ -2912,7 +2919,7 @@ li.twt {
 		width: 72%;
 	}
 	.banner-text {
-		padding: 3em 0 0 0;
+		padding: 6em 0 0 0;
 	}
 	.banner {
 		min-height: 280px;
@@ -3168,7 +3175,7 @@ li.twt {
 	}
 	.banner-text {
 		margin-left: 25px;
-		padding: 2.5em 0 0 0;
+		padding: 6.5em 0 0 0;
 	}
 	.banner {
 		min-height: 245px;
