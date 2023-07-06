@@ -489,6 +489,12 @@ i.white{
 	color:#fff;
 }
 /*-- services --*/
+.align_center1{
+	padding-left:28em;
+}
+.align_center2{
+	padding-left:2em;
+}
 h5.title-w3 {
     font-size: 35px;
     text-transform: uppercase;
@@ -1007,6 +1013,15 @@ div#gallery {
 /*-- about-inner --*/
 .about-banner-w3ls{
     background: url(../images/bg55.jpg)no-repeat 0px 0px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+    min-height: 300px!important;
+}
+.contact-banner-w3ls{
+    background: url(../images/bg56.jpg)no-repeat 0px 0px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
