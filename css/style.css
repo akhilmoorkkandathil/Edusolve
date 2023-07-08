@@ -194,6 +194,37 @@ section {
     min-height: 730px;
 	
 }
+#banner1 {
+    background: url(../images/bg55.jpg)no-repeat 0px 0px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+    background-size: cover;
+    min-height: 730px;
+	
+}
+#banner2 {
+    background: url(../images/bg55.jpg)no-repeat 0px 0px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+    background-size: cover;
+    min-height: 730px;
+	
+}
+#banner3 {
+    background: url(../images/bg55.jpg)no-repeat 0px 0px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+    background-size: cover;
+    min-height: 730px;
+	
+}
+
 .banner-text {
     text-align: left;
     padding: 15em 0 0 0;
@@ -427,12 +458,11 @@ font-weight:600;
 .slider-info h3 {
     font-size: 3.2em;
     color: #ac0b0b;
-    
     padding: 20px;
     letter-spacing: 6px;
-    margin: 16px 0;
-    
+    margin: 16px 0;  
     text-transform: uppercase;
+	padding-left: 0px;
 }
 .slider-info h4 {
     font-size: 1em;
@@ -442,6 +472,7 @@ font-weight:600;
     text-transform: uppercase;
     padding: 0.5em;
 	font-weight:bold;
+	
 }
 /*-- //banner --*/
 /*-- modal --*/
@@ -722,11 +753,12 @@ h4.text {
 }
 .button2 {
     padding: 7px 27px;
-    margin-top: 60px;
+    margin-top: 30px;
     display: inline-block;
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
 	cursor:pointer;
+	border-radius: 25px;
 }
 .button2 {
 	 background: #bc0023;
@@ -796,7 +828,7 @@ li.agileits-main {
 }
 .agile-submit {
     text-align: center;
-    margin: 30px 0px 0px;
+    
 }
 .agile-submit input[type="submit"] {
     padding: 9px 37px;
@@ -1019,6 +1051,7 @@ div#gallery {
     -ms-background-size: cover;
     background-size: cover;
     min-height: 300px!important;
+	background-position: top;
 }
 .contact-banner-w3ls{
     background: url(../images/bg56.jpg)no-repeat 0px 0px;
@@ -1028,6 +1061,7 @@ div#gallery {
     -ms-background-size: cover;
     background-size: cover;
     min-height: 300px!important;
+	background-position: top;
 }
 .about-banner-w3ls h2 {
     color: #fff;
@@ -1232,7 +1266,7 @@ h3.tittle3 {
 	color: #333;
     text-align: center;
 }
-.w3l-social ul li a i.fa.fa-facebook,.w3l-social ul li a i.fa.fa-twitter,.w3l-social ul li a i.fa.fa-google-plus{
+.w3l-social ul li a i.fa.fa-facebook,.w3l-social ul li a i.fa.fa-instagram,.w3l-social ul li a i.fa.fa-google-plus{
 	height: 40px;
     width: 40px;
     background: #FFFFFF;
@@ -1253,7 +1287,7 @@ h3.tittle3 {
 	background: #3b5998;
 	color: #FFFFFF;
 }
-.w3l-social ul li a i.fa.fa-twitter:hover{
+.w3l-social ul li a i.fa.fa-instagram:hover{
 	background: #1da1f2;
 	color: #FFFFFF;
 }
@@ -1629,7 +1663,7 @@ h2.typoh2{
 .location-agileinfo,.call-agileits,.mail-wthree,.social-w3l{
 	position:relative;
     background: rgb(58, 58, 58);
-	padding:30px;
+	padding:27px;
 	width:23%;
 	height:230px;
 	margin-bottom:50px;
@@ -2186,7 +2220,8 @@ li.twt {
 		font-size: .9em;
 	}
 	.button2 {
-		margin-top: 40px;
+		margin-top: 20px;
+		margin-left: 2px;
 	}
 	div#gallery h6 {
 		font-size: 10px;
@@ -2845,8 +2880,8 @@ li.twt {
 		font-size: 14px;
 	}
 	.button2 {
-		margin-top: 25px;
-		padding: 6px 17px;
+		
+		padding: 6px 10px;
 	}
 	div#gallery h6 {
 		font-size: 11px;
