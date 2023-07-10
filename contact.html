@@ -23,6 +23,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/font-awesome.css" rel="stylesheet"> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 <!--web-fonts-->
 <link href="//fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
@@ -74,7 +75,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</header>
 	<!-- //header -->
 	<h2 style="align-items: center;">Contact Us</h2>
-	</div>
+	
 <!-- //banner -->
 <!-- contact -->
 	<div class="contact-agile">
@@ -118,12 +119,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</ul>
 				</div>
 				<div class="clearfix"></div>
-				<form action="https://formsubmit.co/el/confirm/6127f56cc1cfd88e0f5c837cbbd7ba85" method="POST">
-					<input type="text" name="your name" placeholder="FIRST NAME" required="">
-					<input type="text" name="your name" placeholder="LAST NAME" required="">
-					<input type="email" name="your email" placeholder="EMAIL" required="">
-					<input type="text" name="subject" placeholder="SUBJECT" required="">
-					<textarea  name="your message" placeholder="YOUR MESSAGE" required=""></textarea>
+				<form id="submit-form" action="" >
+					<input type="text" name="name" placeholder="FULL NAME" required="">
+					<input type="text" name="phone number" placeholder="NUMBER" required="">
+					<input type="email" name="your email" placeholder="EMAIL" >
+					<input type="text" name="subject" placeholder="SUBJECT" >
+					<textarea  name="your message" placeholder="YOUR MESSAGE" ></textarea>
 					<input type="submit" value="SEND MESSAGE">
 				</form>
 			</div>
@@ -187,6 +188,24 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						});
 					</script>
 					<!-- script-for-menu -->
-
+					<script>
+						$("#submit-form").submit((e)=>{
+							e.preventDefault()
+							$.ajax({
+								url:"https://script.google.com/macros/s/AKfycbyzijd1-Cfrho5tXrjBg1BaJMqn34VeJSgIHa8w7WQSwwMxNBGY2UTCOGLpu2hkGVD_/exec",
+								data:$("#submit-form").serialize(),
+								method:"post",
+								success:function (response){
+									alert("Form submitted successfully")
+									window.location.reload()
+									//window.location.href="https://google.com"
+								},
+								error:function (err){
+									alert("Something Error")
+					
+								}
+							})
+						})
+					</script>
 </body>
 </html>

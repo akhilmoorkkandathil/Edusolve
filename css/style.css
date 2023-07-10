@@ -146,7 +146,7 @@ header {
     padding-bottom: 0;
 }
  .navbar-nav > li > a.active {
-    color: #e42222!important;
+    color: #bc0023!important;
 }
 .dropdown-menu {
     top: 30px;
@@ -538,6 +538,9 @@ h5.head{
 }
 .services-w3layouts,.reviews,.signup,.gallery,.wthree-main-content,.team,.contact-agile{
     padding: 70px 0px;
+}
+.gallery,.wthree-main-content{
+    padding: 15px 0px;
 }
 .agile-info-advantages{
 	padding:60px 0 0;
@@ -1016,7 +1019,7 @@ div#gallery {
     opacity: .7;
 }
 .g {
-	background-color:#1ca0de;
+	background-color:#ac0b0b;
 }
 .portfolio-modal .close-modal .lr {
     z-index: 1051;
@@ -1043,8 +1046,18 @@ div#gallery {
 }
 /*--//Portfolio --*/
 /*-- about-inner --*/
-.about-banner-w3ls{
+.course-banner-w3ls{
     background: url(../images/bg55.jpg)no-repeat 0px 0px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+    min-height: 215px!important;
+	background-position: top;
+}
+.about-banner-w3ls {
+    background: url(../images/bg56.jpg)no-repeat 0px 0px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1053,14 +1066,15 @@ div#gallery {
     min-height: 300px!important;
 	background-position: top;
 }
+
 .contact-banner-w3ls{
-    background: url(../images/bg56.jpg)no-repeat 0px 0px;
+    background: url(../images/bg557.jpg)no-repeat 0px 0px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
     background-size: cover;
-    min-height: 300px!important;
+    min-height: 215px!important;
 	background-position: top;
 }
 .about-banner-w3ls h2 {
@@ -2845,6 +2859,9 @@ li.twt {
 	}
 	.services-w3layouts, .reviews, .signup, .gallery, .wthree-main-content, .team, .contact-agile {
 		padding: 50px 0px;
+	}
+	 .gallery, .wthree-main-content {
+		padding: 5px 0px;
 	}
 	h5.title-w3 {
 		font-size: 20px;
