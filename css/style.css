@@ -1282,7 +1282,7 @@ h3.tittle3 {
 	color: #333;
     text-align: center;
 }
-.w3l-social ul li a i.fa.fa-facebook,.w3l-social ul li a i.fa.fa-instagram,.w3l-social ul li a i.fa.fa-google-plus{
+.w3l-social ul li a i.fa.fa-facebook,.w3l-social ul li a i.fa.fa-instagram,.w3l-social ul li a i.fa.fa-twitter{
 	height: 40px;
     width: 40px;
     background: #FFFFFF;
@@ -1716,7 +1716,7 @@ h2.typoh2{
 	margin-right:2.6%;
 }
 .social-w3l ul li {
-    background-color: #3b5998;
+    
 	list-style:none;
 	width:75%;
 }
@@ -1743,6 +1743,10 @@ h2.typoh2{
 .social-w3l ul li a {
     display: block;
 	color:#fff;
+	border: solid;
+	
+	border-block-color: #337ab7;
+	padding: 5x;
 }
 .social-w3l ul li  .fa{
 	color:#fff;
