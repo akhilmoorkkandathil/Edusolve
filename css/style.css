@@ -61,7 +61,7 @@ label{
 }
 .logo_img {
 	width:100px;
-	height: 40px;
+	height: 45px;
 }
 .w3-logo h1 {
     margin-top: 2px;
@@ -540,7 +540,7 @@ h5.head{
     padding: 70px 0px;
 }
 .gallery,.wthree-main-content{
-    padding: 15px 0px;
+    padding: 55px 0px;
 }
 .agile-info-advantages{
 	padding:60px 0 0;
@@ -1268,6 +1268,8 @@ h3.tittle3 {
 }
 .w3l-social {
     margin: 1em 0 0 0;
+	text-align: center;
+	padding:10px;
 }
 .w3l-social ul{
 	padding:0;
@@ -2094,7 +2096,7 @@ li.twt {
 		padding-left: 1.5em;
 	}
 	.copyright-wthree {
-		padding: 25px 0px;
+		padding: 10px 0px;
 	}
 	.portfolio-modal .modal-content img {
 		width: 75%;
@@ -3061,7 +3063,7 @@ li.twt {
 		margin-bottom: 0!important;
 	}
 	.team-img .overlay {
-		padding: 8em 0.5em;
+		padding: 7em 0.5em;
 	}
 	.copyright-wthree p {
 		font-size: 14px;
@@ -3307,7 +3309,7 @@ li.twt {
 	.callbacks_container {
 		width: 90%;
 	}
-	.services-w3layouts, .reviews, .signup, .gallery, .wthree-main-content, .team, .contact-agile {
+	.services-w3layouts, .reviews, .signup, .wthree-main-content, .team, .contact-agile {
 		padding: 45px 0px;
 	}
 	.modal-dialog {
