@@ -205,7 +205,7 @@ section {
 	
 }
 #banner2 {
-    background: url(../images/bg56.jpg)no-repeat 0px 0px;
+    background: url(../images/bg6.png)no-repeat 0px 0px;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -215,7 +215,7 @@ section {
 	
 }
 #banner3 {
-    background: url(../images/bg57.jpg)no-repeat 0px 0px;
+    background: url(../images/bg5.jpg)no-repeat 0px 0px;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -1057,7 +1057,7 @@ div#gallery {
 	background-position: top;
 }
 .about-banner-w3ls {
-    background: url(../images/bg56.jpg)no-repeat 0px 0px;
+    background: url(../images/bg6.png)no-repeat 0px 0px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1068,7 +1068,7 @@ div#gallery {
 }
 
 .contact-banner-w3ls{
-    background: url(../images/bg57.jpg)no-repeat 0px 0px;
+    background: url(../images/bg5.jpg)no-repeat 0px 0px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
