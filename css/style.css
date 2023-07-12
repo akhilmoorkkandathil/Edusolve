@@ -205,7 +205,7 @@ section {
 	
 }
 #banner2 {
-    background: url(../images/bg55.jpg)no-repeat 0px 0px;
+    background: url(../images/bg56.jpg)no-repeat 0px 0px;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -215,7 +215,7 @@ section {
 	
 }
 #banner3 {
-    background: url(../images/bg55.jpg)no-repeat 0px 0px;
+    background: url(../images/bg57.jpg)no-repeat 0px 0px;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -1068,7 +1068,7 @@ div#gallery {
 }
 
 .contact-banner-w3ls{
-    background: url(../images/bg557.jpg)no-repeat 0px 0px;
+    background: url(../images/bg57.jpg)no-repeat 0px 0px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1842,7 +1842,7 @@ li.twt {
 /*-- Copyright --*/
 .copyright-wthree {
     background: #000;
-	 padding: 30px 0px;
+	 padding: 1px 0px;
 }
 .copyright-wthree p {
     color: #fff;
@@ -2528,7 +2528,7 @@ li.twt {
 		margin-top: 2.6em;
 	}
 	.copyright-wthree {
-		padding: 21px 0px;
+		padding: 0px 0px;
 	}
 }
 @media(max-width:767px){
