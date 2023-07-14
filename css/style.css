@@ -1074,7 +1074,7 @@ div#gallery {
     -o-background-size: cover;
     -ms-background-size: cover;
     background-size: cover;
-    min-height: 215px!important;
+    min-height: 265px!important;
 	background-position: top;
 }
 .about-banner-w3ls h2 {
@@ -1272,8 +1272,7 @@ h3.tittle3 {
 	
 }
 .w3l-social ul{
-	padding:0;
-	margin:0;
+	padding-top: 16px;
 }
 .w3l-social ul li{
 	display:inline-block;
