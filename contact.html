@@ -44,11 +44,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<!-- Brand and toggle get grouped for better mobile display -->
 				<div class="navbar-header">
 				  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				  </button>				  
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" id="navbar-toggle">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					  </button>
 				<div class="w3-logo">
 					<img class ="logo_img" src="images/edusolve_logo.png" alt >
 				</div>
@@ -151,7 +152,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </div>
 <!-- //Footer -->
 
-<a href="https://wa.me/message/PC22REOBCXY6O1"  id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<a href="https://wa.me/message/3IBWJQHUULVXI1"  id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 <!-- //smooth scrolling -->
 
 	
@@ -183,7 +184,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				};
 			*/
 								
-			// $().UItoTop({ easingType: 'easeOutQuart' });
+			//$().UItoTop({ easingType: 'easeOutQuart' });
 								
 			});
 	</script>
@@ -194,12 +195,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 
 <!-- script-for-menu -->
-					<script>					
-						$("span.menu").click(function(){
-							$(".top-nav ul").slideToggle("slow" , function(){
-							});
-						});
-					</script>
+<script>
+	window.addEventListener('scroll', function() {
+	  var navbarToggle = document.getElementById('navbar-toggle');
+	  var navbarCollapse = document.getElementById('bs-example-navbar-collapse-1');
+  
+	  // Check if the navbar is open
+	  if (navbarCollapse.classList.contains('in')) {
+		// Close the navbar
+		navbarToggle.click();
+	  }
+	});
+  </script>
 					<!-- script-for-menu -->
 					<script>
 						$("#submit-form").submit((e)=>{

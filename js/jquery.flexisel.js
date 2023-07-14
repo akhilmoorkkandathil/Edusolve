@@ -115,8 +115,8 @@
 				
 				var listParent = object.parent();
 				var childSet = object.children();
-				var leftArrow = listParent.find($(".nbs-flexisel-nav-left"));
-				var rightArrow = listParent.find($(".nbs-flexisel-nav-right"));
+				var leftArrow = listParent.find($(".nbs-flexisel-nav-right"));
+				var rightArrow = listParent.find($(".nbs-flexisel-nav-left"));
 				
 				$(window).on("resize", function(event){
 					
